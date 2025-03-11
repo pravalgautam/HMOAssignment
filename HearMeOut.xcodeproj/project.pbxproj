@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40BBCE782D80A9860000A540 /* HearMeOutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BBCE772D80A9860000A540 /* HearMeOutApp.swift */; };
+		40BBCE7A2D80A9860000A540 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BBCE792D80A9860000A540 /* ContentView.swift */; };
+		40BBCE7C2D80A9880000A540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BBCE7B2D80A9880000A540 /* Assets.xcassets */; };
+		40BBCE7F2D80A9880000A540 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BBCE7E2D80A9880000A540 /* Preview Assets.xcassets */; };
+		40BBCE892D80A9880000A540 /* HearMeOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BBCE882D80A9880000A540 /* HearMeOutTests.swift */; };
+		40BBCE932D80A9880000A540 /* HearMeOutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BBCE922D80A9880000A540 /* HearMeOutUITests.swift */; };
+		40BBCE952D80A9880000A540 /* HearMeOutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BBCE942D80A9880000A540 /* HearMeOutUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40BBCE852D80A9880000A540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40BBCE6C2D80A9860000A540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BBCE732D80A9860000A540;
+			remoteInfo = HearMeOut;
+		};
+		40BBCE8F2D80A9880000A540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40BBCE6C2D80A9860000A540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BBCE732D80A9860000A540;
+			remoteInfo = HearMeOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40BBCE742D80A9860000A540 /* HearMeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearMeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BBCE772D80A9860000A540 /* HearMeOutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutApp.swift; sourceTree = "<group>"; };
+		40BBCE792D80A9860000A540 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40BBCE7B2D80A9880000A540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40BBCE7E2D80A9880000A540 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40BBCE842D80A9880000A540 /* HearMeOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearMeOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BBCE882D80A9880000A540 /* HearMeOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutTests.swift; sourceTree = "<group>"; };
+		40BBCE8E2D80A9880000A540 /* HearMeOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearMeOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BBCE922D80A9880000A540 /* HearMeOutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutUITests.swift; sourceTree = "<group>"; };
+		40BBCE942D80A9880000A540 /* HearMeOutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40BBCE712D80A9860000A540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BBCE812D80A9880000A540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BBCE8B2D80A9880000A540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40BBCE6B2D80A9860000A540 = {
+			isa = PBXGroup;
+			children = (
+				40BBCE762D80A9860000A540 /* HearMeOut */,
+				40BBCE872D80A9880000A540 /* HearMeOutTests */,
+				40BBCE912D80A9880000A540 /* HearMeOutUITests */,
+				40BBCE752D80A9860000A540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40BBCE752D80A9860000A540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40BBCE742D80A9860000A540 /* HearMeOut.app */,
+				40BBCE842D80A9880000A540 /* HearMeOutTests.xctest */,
+				40BBCE8E2D80A9880000A540 /* HearMeOutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40BBCE762D80A9860000A540 /* HearMeOut */ = {
+			isa = PBXGroup;
+			children = (
+				40BBCE772D80A9860000A540 /* HearMeOutApp.swift */,
+				40BBCE792D80A9860000A540 /* ContentView.swift */,
+				40BBCE7B2D80A9880000A540 /* Assets.xcassets */,
+				40BBCE7D2D80A9880000A540 /* Preview Content */,
+			);
+			path = HearMeOut;
+			sourceTree = "<group>";
+		};
+		40BBCE7D2D80A9880000A540 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40BBCE7E2D80A9880000A540 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40BBCE872D80A9880000A540 /* HearMeOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				40BBCE882D80A9880000A540 /* HearMeOutTests.swift */,
+			);
+			path = HearMeOutTests;
+			sourceTree = "<group>";
+		};
+		40BBCE912D80A9880000A540 /* HearMeOutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40BBCE922D80A9880000A540 /* HearMeOutUITests.swift */,
+				40BBCE942D80A9880000A540 /* HearMeOutUITestsLaunchTests.swift */,
+			);
+			path = HearMeOutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40BBCE732D80A9860000A540 /* HearMeOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BBCE982D80A9880000A540 /* Build configuration list for PBXNativeTarget "HearMeOut" */;
+			buildPhases = (
+				40BBCE702D80A9860000A540 /* Sources */,
+				40BBCE712D80A9860000A540 /* Frameworks */,
+				40BBCE722D80A9860000A540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HearMeOut;
+			productName = HearMeOut;
+			productReference = 40BBCE742D80A9860000A540 /* HearMeOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40BBCE832D80A9880000A540 /* HearMeOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BBCE9B2D80A9880000A540 /* Build configuration list for PBXNativeTarget "HearMeOutTests" */;
+			buildPhases = (
+				40BBCE802D80A9880000A540 /* Sources */,
+				40BBCE812D80A9880000A540 /* Frameworks */,
+				40BBCE822D80A9880000A540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BBCE862D80A9880000A540 /* PBXTargetDependency */,
+			);
+			name = HearMeOutTests;
+			productName = HearMeOutTests;
+			productReference = 40BBCE842D80A9880000A540 /* HearMeOutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40BBCE8D2D80A9880000A540 /* HearMeOutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BBCE9E2D80A9880000A540 /* Build configuration list for PBXNativeTarget "HearMeOutUITests" */;
+			buildPhases = (
+				40BBCE8A2D80A9880000A540 /* Sources */,
+				40BBCE8B2D80A9880000A540 /* Frameworks */,
+				40BBCE8C2D80A9880000A540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BBCE902D80A9880000A540 /* PBXTargetDependency */,
+			);
+			name = HearMeOutUITests;
+			productName = HearMeOutUITests;
+			productReference = 40BBCE8E2D80A9880000A540 /* HearMeOutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40BBCE6C2D80A9860000A540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					40BBCE732D80A9860000A540 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					40BBCE832D80A9880000A540 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 40BBCE732D80A9860000A540;
+					};
+					40BBCE8D2D80A9880000A540 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 40BBCE732D80A9860000A540;
+					};
+				};
+			};
+			buildConfigurationList = 40BBCE6F2D80A9860000A540 /* Build configuration list for PBXProject "HearMeOut" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40BBCE6B2D80A9860000A540;
+			productRefGroup = 40BBCE752D80A9860000A540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40BBCE732D80A9860000A540 /* HearMeOut */,
+				40BBCE832D80A9880000A540 /* HearMeOutTests */,
+				40BBCE8D2D80A9880000A540 /* HearMeOutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40BBCE722D80A9860000A540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BBCE7F2D80A9880000A540 /* Preview Assets.xcassets in Resources */,
+				40BBCE7C2D80A9880000A540 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BBCE822D80A9880000A540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BBCE8C2D80A9880000A540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40BBCE702D80A9860000A540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BBCE7A2D80A9860000A540 /* ContentView.swift in Sources */,
+				40BBCE782D80A9860000A540 /* HearMeOutApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BBCE802D80A9880000A540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BBCE892D80A9880000A540 /* HearMeOutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BBCE8A2D80A9880000A540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BBCE932D80A9880000A540 /* HearMeOutUITests.swift in Sources */,
+				40BBCE952D80A9880000A540 /* HearMeOutUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40BBCE862D80A9880000A540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BBCE732D80A9860000A540 /* HearMeOut */;
+			targetProxy = 40BBCE852D80A9880000A540 /* PBXContainerItemProxy */;
+		};
+		40BBCE902D80A9880000A540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BBCE732D80A9860000A540 /* HearMeOut */;
+			targetProxy = 40BBCE8F2D80A9880000A540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40BBCE962D80A9880000A540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40BBCE972D80A9880000A540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BBCE992D80A9880000A540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HearMeOut/Preview Content\"";
+				DEVELOPMENT_TEAM = D5M38GX662;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = praval.HearMeOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40BBCE9A2D80A9880000A540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HearMeOut/Preview Content\"";
+				DEVELOPMENT_TEAM = D5M38GX662;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = praval.HearMeOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40BBCE9C2D80A9880000A540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5M38GX662;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = praval.HearMeOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearMeOut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HearMeOut";
+			};
+			name = Debug;
+		};
+		40BBCE9D2D80A9880000A540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5M38GX662;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = praval.HearMeOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearMeOut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HearMeOut";
+			};
+			name = Release;
+		};
+		40BBCE9F2D80A9880000A540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5M38GX662;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = praval.HearMeOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HearMeOut;
+			};
+			name = Debug;
+		};
+		40BBCEA02D80A9880000A540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5M38GX662;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = praval.HearMeOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HearMeOut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40BBCE6F2D80A9860000A540 /* Build configuration list for PBXProject "HearMeOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BBCE962D80A9880000A540 /* Debug */,
+				40BBCE972D80A9880000A540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BBCE982D80A9880000A540 /* Build configuration list for PBXNativeTarget "HearMeOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BBCE992D80A9880000A540 /* Debug */,
+				40BBCE9A2D80A9880000A540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BBCE9B2D80A9880000A540 /* Build configuration list for PBXNativeTarget "HearMeOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BBCE9C2D80A9880000A540 /* Debug */,
+				40BBCE9D2D80A9880000A540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BBCE9E2D80A9880000A540 /* Build configuration list for PBXNativeTarget "HearMeOutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BBCE9F2D80A9880000A540 /* Debug */,
+				40BBCEA02D80A9880000A540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40BBCE6C2D80A9860000A540 /* Project object */;
+}
