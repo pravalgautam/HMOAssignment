@@ -14,6 +14,8 @@
 		40BBCE892D80A9880000A540 /* HearMeOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BBCE882D80A9880000A540 /* HearMeOutTests.swift */; };
 		40BBCE932D80A9880000A540 /* HearMeOutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BBCE922D80A9880000A540 /* HearMeOutUITests.swift */; };
 		40BBCE952D80A9880000A540 /* HearMeOutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BBCE942D80A9880000A540 /* HearMeOutUITestsLaunchTests.swift */; };
+		40BBCEA22D80B8710000A540 /* Blue Eyes - Yo Yo Honey Singh 320 Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40BBCEA12D80B8710000A540 /* Blue Eyes - Yo Yo Honey Singh 320 Kbps.mp3 */; };
+		40BBCEA42D80B8890000A540 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40BBCEA32D80B8880000A540 /* audio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		40BBCE8E2D80A9880000A540 /* HearMeOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearMeOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BBCE922D80A9880000A540 /* HearMeOutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutUITests.swift; sourceTree = "<group>"; };
 		40BBCE942D80A9880000A540 /* HearMeOutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearMeOutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40BBCEA12D80B8710000A540 /* Blue Eyes - Yo Yo Honey Singh 320 Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blue Eyes - Yo Yo Honey Singh 320 Kbps.mp3"; sourceTree = "<group>"; };
+		40BBCEA32D80B8880000A540 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			children = (
 				40BBCE772D80A9860000A540 /* HearMeOutApp.swift */,
 				40BBCE792D80A9860000A540 /* ContentView.swift */,
+				40BBCEA32D80B8880000A540 /* audio.mp3 */,
 				40BBCE7B2D80A9880000A540 /* Assets.xcassets */,
 				40BBCE7D2D80A9880000A540 /* Preview Content */,
 			);
@@ -105,6 +110,7 @@
 		40BBCE7D2D80A9880000A540 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				40BBCEA12D80B8710000A540 /* Blue Eyes - Yo Yo Honey Singh 320 Kbps.mp3 */,
 				40BBCE7E2D80A9880000A540 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -231,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40BBCEA42D80B8890000A540 /* audio.mp3 in Resources */,
 				40BBCE7F2D80A9880000A540 /* Preview Assets.xcassets in Resources */,
+				40BBCEA22D80B8710000A540 /* Blue Eyes - Yo Yo Honey Singh 320 Kbps.mp3 in Resources */,
 				40BBCE7C2D80A9880000A540 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
