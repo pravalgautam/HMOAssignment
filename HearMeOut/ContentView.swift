@@ -9,7 +9,7 @@ import AVFoundation
 
 struct AudioVisualizerView: View {
     @State private var isPlaying = false
-    @State private var amplitudes: [CGFloat] = (0..<50).map { _ in CGFloat.random(in: 10...90) }
+    @State private    var amplitudes: [CGFloat] = (0..<50).map { _ in CGFloat.random(in: 10...90) }
     @State private var rotationAngle: Double = 0
     @State private var scale: CGFloat = 1.0
     @State private var currentTime: Double = 0
